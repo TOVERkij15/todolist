@@ -4,9 +4,6 @@
 //Router
 ///////////
 
-
-
-
 var AppRouter = Parse.Router.extend ({
 
 	routes: {
