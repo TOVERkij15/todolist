@@ -1,0 +1,137 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>marykay</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!--header-->
+        <div class="sub-header">
+            <a href="#home">Home</a>
+            <a href="#checklist">Checklist</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#notes">Notes</a>
+        </div>
+        
+        <!--views--> 
+        <div class="home-view"></div>
+        <div class="checklist-view"></div>
+        <div class="schedule-view"></div>
+        <div class="notes-view"></div>
+        
+        <!--home-->
+        <script type="text/template" class="home-template">
+            <div class="greeting">Hello, Marykay!</div>
+                <div class="home-container"> 
+                    <a href="#home"><img src="http://static.wixstatic.com/media/553b1c_dab45ec951564f39917aae276cd99dfb.png"/></a>
+                    <a href="#checklist"><img src="http://governancegps.net/wp-content/uploads/2014/05/Checklist_Icon_1_White_400x400.png"/></a>
+                    <a href="#schedule"><img src="http://www.ad-opt.com/wp-content/uploads/2013/04/icon-calendar-white.png"/></a>
+                    <a href="#notes"><img src="http://upload.wikimedia.org/wikipedia/commons/3/3e/White_pencil.png"/></a>
+                </div>
+            </div>
+        </script>  
+        
+        <!--checklist-->
+        <script type="text/template" class="checklist-template">
+            <div class="block-container"> 
+                <div class="footer1">
+                     <div class="section">
+
+        <header id="">
+          <input id="new-todo" placeholder="What needs to be done?" type="text" />
+        </header>
+
+        <div id="main">
+          <input id="toggle-all" type="checkbox">
+          <label for="toggle-all">Mark all as complete</label>
+        </div>
+                </div>
+            </div>
+        </script>
+
+        <script type="text/template" class="schedule-template">
+            <div class="test">
+            
+            </div>
+            <div class="modal">
+                <a href="shoe container">Shoes</a>
+                <a href="clothing container">Clothes</a>
+                <a href="accesories container">Accessories</a>
+                <a href="bags container">Bags</a>
+            </div>
+        </script>
+
+        <script type="text/template" class="notes-template">
+        </script>
+
+        
+
+
+
+
+
+
+        
+
+
+
+        <!-- Task should be rendered on the page -->
+        <!--<script type="text/template" class="task-list-item">
+            <span class="task-item"><%= task %></span>
+            <button class="delete-button">Delete</button>
+            <button class="edit-button">Edit</button>
+            <button class="completed-button">Complete</button>
+        </script>-->
+
+      <!-- template for editing task item -->
+        <!--<script type="text/template" class="task-edit-item">
+            <span class="task-item"><input type="text" value="<%= task %>"></span>
+            <button class="save-button">Save</button>
+            <button class="delete-button">Delete</button>
+        </script>-->
+
+
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/underscore/underscore.js"></script>
+     
+        <!-- endbower -->
+        <!-- endbuild -->
+        <script src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/view.js"></script>
+        <script src="scripts/router.js"></script>
+        <script src="scripts/main.js"></script>
+       
+        <!-- endbuild -->
+</body>
+</html>
