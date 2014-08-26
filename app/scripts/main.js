@@ -15,4 +15,3 @@ var UserCollection = Parse.Collection.extend({
 /////////////////////
 ///////todolist/////
 ///////////////////
-
