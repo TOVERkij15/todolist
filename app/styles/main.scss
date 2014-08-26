@@ -41,9 +41,9 @@ body {
 //CheckList//
 
 h1{
-    color:white;
+    color:purple;
     text-align: center;
-    background-color: black;
+    background-color: #222222;
     opacity: 0.8;
     margin-left: 15%;
     margin-right: 15%;
@@ -104,30 +104,39 @@ h1{
     margin-bottom: 5%;
     margin-top: 5%;
     margin-right: 5%;
-    color: white;
+    color: purple;
     text-overlay:hidden;
 
 
     thead{
         background-color: black;
         opacity:0.8;
-        color: white;
+        color: purple;
     }
 
     tbody{
         background-color: black;
-        opacity: 0.9;
+        opacity: 0.8;
     }
 
     tr{
         height:100px;
-        color: white;
+        color: purple;
     }
 
     th{
         width: 500px;
-        color:white;
+        color: white;
     }
 
 }
 
+.notes-container {
+    height: 500px;
+    width: 500px;
+    margin: 5%;
+    background-color: black;
+    opacity: 0.9;
+
+
+}
