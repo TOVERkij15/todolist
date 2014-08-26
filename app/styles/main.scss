@@ -102,10 +102,9 @@ h1{
 .table-container {
     margin-left: 5%;
     margin-bottom: 5%;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
     margin-right: 5%;
     color: purple;
-    text-overlay:hidden;
 
 
     thead{
@@ -127,6 +126,13 @@ h1{
     th{
         width: 500px;
         color: white;
+
+    }
+
+    input{
+        margin:0;
+        width: 50px;
+
     }
 
 }
