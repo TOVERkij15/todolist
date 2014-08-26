@@ -23,10 +23,14 @@
 
         <!--header-->
         <div class="sub-header">
-            <a href="#home">Home</a>
-            <a href="#checklist">Checklist</a>
-            <a href="#schedule">Schedule</a>
-            <a href="#notes">Notes</a>
+            <a href="#home"><img src="http://static.wixstatic.com/media/553b1c_dab45ec951564f39917aae276cd99dfb.png"/></a>
+            <a href="#checklist"><img src="http://governancegps.net/wp-content/uploads/2014/05/Checklist_Icon_1_White_400x400.png"/></a>
+            <a href="#schedule"><img src="http://www.ad-opt.com/wp-content/uploads/2013/04/icon-calendar-white.png"/></a>
+            <a href="#notes"><img src="http://upload.wikimedia.org/wikipedia/commons/3/3e/White_pencil.png"/></a>
+            <!--<a href="#home"></a>
+            <a href="#checklist"></a>
+            <a href="#schedule"></a>
+            <a href="#notes"></a>-->
         </div>
         
         <!--views--> 
@@ -49,6 +53,7 @@
         
         <!--checklist-->
         <script type="text/template" class="checklist-template">
+            <h1>To-Do-List</h1>
             <div class="block-container"> 
                 <div class="footer1">
                     <div class="section">
@@ -58,6 +63,11 @@
                     <div id="main">
                         <input id="toggle-all" type="checkbox">
                         <label for="toggle-all">Mark all as complete</label>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                 </div>
             </div>
@@ -65,8 +75,67 @@
 
         <!--schedule-->
         <script type="text/template" class="schedule-template">
-            <div class="test">
-                this is the schedule page
+            <div class="table-container">
+                 <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="7">Schedule</th>
+                </tr>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Event</th>
+                    <th>Event</th>
+                    <th>Event</th>
+                    <th>Event</th>
+                    <th>Event</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>  
+                    <td></td>
+                    <td></td>  
+                    <td></td>
+                    <td></td>
+                    <td></td>  
+                     
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>  
+                    <td></td>
+                    <td></td>
+                    <td></td>  
+                    
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>  
+                    <td></td> 
+                    <td></td>
+                    <td></td>  
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>  
+                    <td></td> 
+                    <td></td>
+                    <td></td>  
+                </tr>
+            </tbody>
+            </tbody>
+        </table>
             </div>
         </script>
 
@@ -75,7 +144,30 @@
             this is the notes
         </script>
 
-        
+
+<!--this is the to do list from backbone/use as reference-->
+        <!--<div class="header-two"> To Do List </div>
+    <div class="container"> 
+            <div class="enter"> 
+                <input class= "add-list-input"type= "text" placeholder="Add new content here.">
+                <div class="add-list button"> add </div>
+            </div>
+    </div>
+
+         <script type="text/template" class="list-chore">
+            <div class="list"> <%= list %> </div>
+                <div class="edit-list button"> Edit </div>
+                    <div class="remove-list button"> Delete </div>
+        </script>
+ 
+ 
+        <script type="text/template" class="list-edit-chore">
+            <div class="field"> <input type="text" value="<%= list %>"> </div>
+                <div class="store-list button">Save</div>
+                    <div class="remove-list button">delete</div>
+        </script>-->
+
+     
 
 
 
