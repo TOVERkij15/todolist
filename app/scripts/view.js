@@ -25,6 +25,7 @@ var CheckListView = Parse.View.extend({
 
 	checklistTemplate: _.template($('.checklist-template').text()),
 
+
 	initialize: function() {
 		$('.checklist-view').append(this.el)
 		this.render();

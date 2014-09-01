@@ -22,5 +22,5 @@ $(document).ready(function() {
         $(document).on('click', '.item', function(){
         $(this).remove();
     });
-    });
+  });
 });
